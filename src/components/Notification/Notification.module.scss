@@ -1,0 +1,22 @@
+.notification {
+  position: absolute;
+  padding: 30px;
+  left: 50%;
+  top: 0;
+  width: 300px;
+  transform: translateX(-50%);
+  display: none;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: fadeout;
+
+  &_error {
+    color: red !important;
+    display: block;
+  }
+
+  &_success {
+    color: green !important;
+    display: block;
+  }
+}

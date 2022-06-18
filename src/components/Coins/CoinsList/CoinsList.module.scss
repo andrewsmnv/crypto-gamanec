@@ -1,0 +1,13 @@
+.coins-list {
+  border-bottom: 1px solid #ccc;
+  padding-top: 135px;
+  position: relative;
+
+  &__empty-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
